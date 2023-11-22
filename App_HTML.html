@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App_CSS.css">
+    <title>Movie Recommendation App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Movie Recommendation App</h1>
+        
+        <!-- Search Bar -->
+        <input type="text" id="searchInput" placeholder="Search by title, genre, year, or description">
+        <button onclick="searchMovies()">Search</button>
+
+        <!-- Display Search Results -->
+        <div id="searchResults"></div>
+        
+
+        <!-- Recommendation Button -->
+        <button onclick="recommendMovie()">Get Recommendation</button>
+
+        <!-- Display Movie Details -->
+        <div id="movieDetails"></div>
+    </div>
+    <script src="App_JS.js"></script>
+</body>
+
+</html>
